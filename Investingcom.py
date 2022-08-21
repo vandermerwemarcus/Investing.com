@@ -8,6 +8,9 @@ df = investpy.get_stock_historical_data(stock='AAPL',
 
 
 ls = investpy.get_stocks(country='south africa')
-sm = investpy.get_stock_financial_summary(stock='SHPJ',country='south africa')
+sm = investpy.get_stock_financial_summary(stock='SHPJ',
+                                          country='south africa',
+                                          summary_type='income_statement', 
+                                          period='annual')
 st.write(ls)
 st.write(sm)
