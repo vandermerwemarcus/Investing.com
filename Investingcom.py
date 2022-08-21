@@ -7,6 +7,6 @@ df = investpy.get_stock_historical_data(stock='AAPL',
                                         to_date='01/01/2020')
 
 
-sm = investpy.get_stock_dividends(stock='SHP',country='South Africa')
+sm = investpy.get_stock_countries()
 st.write(df)
 st.write(sm)
