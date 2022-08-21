@@ -8,6 +8,6 @@ df = investpy.get_stock_historical_data(stock='AAPL',
 
 
 ls = investpy.get_stocks(country='south africa')
-sm = investpy.get_stock_financial_summary(stock='SHP',country='south africa')
+#sm = investpy.get_stock_financial_summary(stock='SHP',country='south africa')
 st.write(ls)
-st.write(sm)
+#st.write(sm)
