@@ -7,7 +7,7 @@ df = investpy.get_stock_historical_data(stock='AAPL',
                                         to_date='01/01/2020')
 
 
-ls = investpy.get_stock_countries()
+ls = investpy.get_stocks(country='south africa')
 sm = investpy.get_stock_financial_summary(stock='SHP',country='south africa')
-st.write(df)
+st.write(ls)
 st.write(sm)
